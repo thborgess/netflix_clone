@@ -1,0 +1,64 @@
+:root{
+    --vermelho: #E50914;
+    --preto: #141414;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: var(--preto);
+    font-family: Helvetica, sans-serif;
+    color: white;
+}
+
+/*header*/
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo{
+    margin-top: 5px;
+    margin-left: 10px;
+    color: var(--vermelho);
+    font-size: 30px;
+}
+
+header nav a {
+    margin-top: 5px;
+    text-decoration: none;
+    color: #c0bebe;
+    margin-right: 10px;
+}
+
+header nav a:hover {
+    color: #e0dede;
+}
+
+/*filme principal*/
+
+.filme_principal {
+    font-size: 17px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('/assets/st_capa.jpg');
+    height: 400px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.filme_principal .descricao {
+    margin-bottom: 35px;
+
+}
+
+.filme_principal .logo_titulo {
+    height: 150px;
+}
