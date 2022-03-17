@@ -4,7 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!--owl css-->
+    <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
     <link rel="stylesheet" href="style/main.css">
+    <link rel="stylesheet" href="style/responsive.css">
+
     <title>Netflix (clone)</title>
 </head>
 <body>
@@ -15,7 +21,7 @@
                 <a href="">Inicio</a>
                 <a href="">Séries</a>
                 <a href="">Filmes</a>
-                <a href="">Usuários</a>
+                <a href="">Minha Lista</a>
             </nav>
         </div>
     </header>
@@ -24,7 +30,7 @@
         <div class="filme_principal">
             <div class="container">
                 <img class="logo_titulo" src="https://logosmarcas.net/wp-content/uploads/2020/05/Stranger-Things-Logo.png" alt="logo stranger things">
-                <p class="descricao">Quando um garoto desaparece, a cidade toda <br>participa nas buscas. Mas o que encontram são segredos, <br> forças sobrenaturais e uma menina.</p>
+                <p class="descricao">Quando um garoto desaparece, a cidade toda participa nas buscas. Mas o que encontram são segredos, forças sobrenaturais e uma menina.</p>
 
                 <div class="botoes">
                     <button class="botao assistir">
@@ -33,13 +39,52 @@
                     </button>
                     <button class="botao">  
                         <i class="fa-solid fa-circle-info"></i>
-                        ADICIONAR À LISTA
+                        MAIS INFORMAÇÕES
                     </button>
                 </div>
             </div>          
         </div>
     </main>
 
+    <div class="carrousel-filmes">
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <img class="box-filme" src="assets/st poster.jpg" alt="stranger things poster">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="assets/atlanta.jpg" alt="atlanta poster">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="assets/castlvenia.jpg" alt="catlevania poster">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="assets/dark.jpg" alt="dark poster">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="assets/totoro.jpg" alt="totoro poster">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="assets/vikings.jpg" alt="vikings poster">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="assets/aranhaverso.jpg" alt="aranhaverso poster">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="assets/babydrt.jpg" alt="baby driver poster">
+            </div><div class="item">
+                <img class="box-filme" src="assets/us.jpg" alt="nós poster">
+            </div><div class="item">
+                <img class="box-filme" src="assets/anne.jpg" alt="anne with an e poster">
+            </div>
+        </div>
+    </div>
+
+    <!--font awesome-->
     <script src="https://kit.fontawesome.com/a0e731258b.js" crossorigin="anonymous"></script>
+
+    <!--owl js-->
+    <script src="js/owl/jquery.min.js"></script>
+    <script src="js/owl/owl.carousel.min.js"></script>
+    <script src="js/owl/main.js"></script>
 </body>
 </html>
